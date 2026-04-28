@@ -20,5 +20,11 @@ public:
 
 int main()
 { 
-    Mahaswiswa mhs1;
+    Mahaswiswa mhs;
+
+    mhs.nama = "ambon";
+    mhs.nim = 12024;
+    mhs.nilai = 85.5;
+
+    mhs.printdata();
 }
