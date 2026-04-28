@@ -1,6 +1,8 @@
+//library iostream untuk input output
+
 #include <iostream>
 #include <string>
-using namespace std;
+using namespace std; 
 
 class Mahasiswa
 {
