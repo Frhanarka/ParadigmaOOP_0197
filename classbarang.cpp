@@ -15,3 +15,13 @@ public:
         this->kategori = kategori;
         this->tanggalProduksi = tanggalProduksi;
     }
+
+    void tampilkan() {
+        cout << "==========================" << endl;
+        cout << "Nama         : " << nama << endl;
+        cout << "Jumlah       : " << jumlah << endl;
+        cout << "Kategori     : " << kategori << endl;
+        cout << "Tgl Produksi : " << tanggalProduksi << endl;
+        cout << "==========================" << endl;
+    }
+};
