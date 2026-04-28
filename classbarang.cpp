@@ -25,3 +25,10 @@ public:
         cout << "==========================" << endl;
     }
 };
+
+int main() {
+    Barang elektronik("Laptop", 10, "Elektronik", "2024-01-15");
+    Barang nonElektronik("Buku Tulis", 50, "Non-Elektronik", "2023-06-20");
+
+    elektronik.tampilkan();
+    nonElektronik.tampilkan();
