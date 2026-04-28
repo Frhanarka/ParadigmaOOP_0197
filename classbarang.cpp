@@ -32,3 +32,5 @@ int main() {
 
     elektronik.tampilkan();
     nonElektronik.tampilkan();
+
+    return 0;
