@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class mahasiswa
+class Mahasiswa
 {
 public:
     string nama;
@@ -20,7 +20,7 @@ public:
 
 int main()
 { 
-    Mahaswiswa mhs;
+    Mahasiswa mhs; // deklarasi objek mhs dari kelas Mahasiswa
 
     mhs.nama = "ambon";
     mhs.nim = 12024;
